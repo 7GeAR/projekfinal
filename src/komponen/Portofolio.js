@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable import/no-anonymous-default-export */
-export default function()
+export default function Portofolio()
 {
     return(
         <div className="portfolio-block" id="portofolio">
