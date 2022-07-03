@@ -10,6 +10,7 @@ import img7 from "../src/assets/img/img7.png";
 import React from 'react';
 import Navbar from "./komponen/navbar";
 import Banner from "./komponen/baner";
+import Hello from "./komponen/Hello";
 
 export default function Homepage (){
     return(
@@ -18,15 +19,7 @@ export default function Homepage (){
             <div className="span8 offset2">
             <Navbar />
             <Banner />
-            <div className="featured-heading" id = "about">
-                <div className="row-fluid">
-                <div className="span10 offset1">
-                    <h1>Hello Iam kate Doe</h1>
-                    <h2>Donec nec justo <strong>eget felis</strong> facilisis fermentumpelle <span>ntesque</span> felis lorem ipsum dolor</h2>
-                    <a href="#" className="btn">more about me</a>
-                </div>
-                </div>
-            </div>
+            <Hello/>
             <div className="featured-content" id = "service">
                 <div className="row-fluid">
                 <div className="span6">
