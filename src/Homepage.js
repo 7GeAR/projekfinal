@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 import img1 from "../src/assets/img/img1.png";
@@ -11,6 +12,8 @@ import React from 'react';
 import Navbar from "./komponen/navbar";
 import Banner from "./komponen/baner";
 import Hello from "./komponen/Hello";
+import Service from "./komponen/Service";
+import Portofolio from "./komponen/Portofolio";
 
 export default function Homepage (){
     return(
@@ -20,65 +23,9 @@ export default function Homepage (){
             <Navbar />
             <Banner />
             <Hello/>
-            <div className="featured-content" id = "service">
-                <div className="row-fluid">
-                <div className="span6">
-                    <div className="block">
-                    <h1>Nunc dignissim risus </h1>
-                    <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu <span>vulputate magna eros eu erat</span>. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
-                    <a href="#" className="btn">more info</a>
-                    </div>
-                </div>
-                <div className="span6">
-                    <div className="block">
-                    <h1>Vivamus vestibulum nulla </h1>
-                    <p className="last">Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
-                    <ul className="ruler-top">
-                        <li><a href="#">Integer vita /</a></li>
-                        <li><a href="#">Egestis /</a></li>
-                        <li><a href="#">Tindidunt</a></li>
-                    </ul>
-                    <a href="#" className="btn">more info</a>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div className="portfolio-block" id="portofolio">
-                <div className="portfolio-title">
-                <h1>portfolio</h1>
-                <h2>Integer vitae libero ac risus egestas placerat</h2>
-                </div>
-                <div className="links">
-                <a href="#">Tomdicmt</a>
-                <a href="#">Voluptin</a>
-                <a href="#">fermentu</a>
-                </div>
-                <div className="row-fluid">
-                <ul className="thumbnails">
-                    <li className="no-space">
-                    <a href="#" className="circle"><img src= {img1} alt =""/></a>
-                    </li>
-                    <li>
-                    <a href="#" className="circle"><img src={img2} alt =""  /></a>
-                    </li>
-                    <li>
-                    <a href="#" className="circle"><img src={img3} alt ="" /></a>
-                    </li>
-                    <li>
-                    <a href="#" className="circle"><img src={img4} alt ="" /></a>
-                    </li>
-                    <li>
-                    <a href="#" className="circle"><img src={img5} alt ="" /></a>
-                    </li>
-                    <li>
-                    <a href="#" className="circle"><img src={img6} alt =""  /></a>
-                    </li>
-                    <li>
-                    <a href="#" className="circle"><img src={img7} alt =""  /></a>
-                    </li>
-                </ul>
-                </div>
-            </div>
+            <Service/>
+            <Portofolio/>
+            
             <div className="contact-info" id = "contact">
                 <h1>contact me</h1>
                 <h2>lorem ger vitae libero ac risus</h2>
