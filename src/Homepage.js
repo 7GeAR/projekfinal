@@ -6,6 +6,7 @@ import Navbar from "./komponen/navbar";
 import Banner from "./komponen/baner";
 import Hello from "./komponen/Hello";
 import Service from "./komponen/Service";
+import Kontak from './komponen/Kontak';
 import Penutup from "./komponen/Penutup";
 
 export default function Homepage (){
@@ -17,8 +18,10 @@ export default function Homepage (){
             <Banner />
             <Hello/>
             <Service/>
+            <Kontak/>
             <Penutup/>
             
+
             </div>
         </div>
         </div>
